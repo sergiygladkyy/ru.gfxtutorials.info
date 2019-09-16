@@ -443,7 +443,8 @@ pixPos = vec3(dot(hpos, wm[0]), dot(hpos, wm[1]), dot(hpos, wm[2]));
 Вычисляем трансформированную ориентацию нормали, это делается тем же способом, что и вычисление позиции, но 3-мерный вектор дополняется не единицей, а нулём; мы тут не делаем это дополнения явно, а используем только три первых компонента из строк матрицы:
 
 ```
-vec3 vnrm = vtxNrm; pixNrm = normalize(vec3(dot(vnrm, wm[0].xyz), dot(vnrm, wm[1].xyz), dot(vnrm, wm[2].xyz)));
+vec3 vnrm = vtxNrm;
+pixNrm = normalize(vec3(dot(vnrm, wm[0].xyz), dot(vnrm, wm[1].xyz), dot(vnrm, wm[2].xyz)));
 ```
 
 Координаты текстур и значения цвета мы передаём без изменений:
