@@ -518,8 +518,8 @@ s_progId = OGLSys::link_draw_prog(sidVert, sidFrag);
 
 Если link операция удалась, то мы инициализируем интерфейс GPU программы внутри блока 
 ```
-if (s_progId) { ...
-
+if (s_progId) {
+  ...
 }
 ```
 
