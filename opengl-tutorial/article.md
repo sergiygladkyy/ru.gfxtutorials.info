@@ -560,6 +560,7 @@ s_gpLocViewProj = glGetUniformLocation(s_progId, "gpViewProj");
 
 ## OGL ifunc reset
 ![](att17.jpeg)
+<br/>
 Интерфейсная функция reset, показанная на листинге выше, крайне простая, пара строк.
 
 Мы удаляем GPU программу вызовом glDeleteProgram и обнуляем соответствующую статическую переменную.
