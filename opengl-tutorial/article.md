@@ -928,11 +928,13 @@ glUniform4fv
 glUniform1i
 ```
 
-Attributees: 
-`glGetAttribLocation `
-`glEnableVertexAttribArray `
-`glVertexAttribPointer `
-`glDisableVertexAttribArray`
+Attributes: 
+```
+glGetAttribLocation
+glEnableVertexAttribArray
+glVertexAttribPointer
+glDisableVertexAttribArray
+```
 
 Draw: 
 ```
